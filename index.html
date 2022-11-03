@@ -496,29 +496,30 @@
         <div class="row">
             <div class="col-md-7">
                <form class="contact-form" action="https://formsubmit.co/ventura.macedo19@gmail.com" onsubmit="Salvar()" method="POST">
+                  <input type="hidden" name="_captcha" value="false">
                    <div class="row">
                       <div class="col-md-6">
                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Seu nome" required>
+                            <input type="text" class="form-control" placeholder="Seu nome" name="nome" required>
                          </div>
                       </div>
                       <div class="col-md-6">
                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Seu e-mail" required>
+                            <input type="text" class="form-control" placeholder="Seu e-mail" name="email" required>
                          </div>
                       </div>
                    </div>
                    <div class="row">
                       <div class="col-md-12">
                           <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Assunto">
+                            <input type="text" class="form-control" placeholder="Assunto" name="assunto">
                           </div>
                       </div>
                    </div>
                    <div class="row">
                       <div class="col-md-12">
                           <div class="form-group">
-                            <textarea class="form-control" placeholder="Mensagem" required></textarea>
+                            <textarea class="form-control" placeholder="Mensagem" name="mensagem" required></textarea>
                           </div>
                       </div>
                    </div>
